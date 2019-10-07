@@ -560,3 +560,30 @@ button.bg-dark:focus {
   height: 202px;
   margin-left: 82px;
 }
+
+.text-left{
+  display: block;;
+  background-color: white;
+  padding: 20px;
+}
+
+.connect li{
+  	display: inline;
+  	padding: 10px;
+}
+
+.connect li:first-child{
+	margin-left: 7%;
+}
+
+.connect li a:hover{
+	color: black;
+	font-size: 14px;
+}
+
+.list li a{
+	padding-left: 50px;
+}
+.list li a:hover{
+	color: cyan;
+}
