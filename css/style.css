@@ -466,16 +466,21 @@ button.bg-dark:focus {
       margin-left: 14px;
 }
 
+#email:hover{
+  color: cyan;
+}
+
 .connect li{
-      display: inline-grid;
+  display: inline-grid;
 }
 
 .connect li a:first-child{
-        margin-left: 20px;
+  margin-left: 20px;
 }
 
-#email:hover{
-  color: cyan;
+.connect li a:hover{
+  color: black;
+  font-size: 12px;
 }
 
 .list li a{
