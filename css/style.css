@@ -469,3 +469,7 @@ button.bg-dark:focus {
 .connect li{
       display: inline-grid;
 }
+
+.connect li a:first-child{
+        margin-left: 20px;
+}
