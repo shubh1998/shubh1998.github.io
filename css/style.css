@@ -1,10 +1,3 @@
-/*
-    Theme Name: Laura
-    Theme URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-*/
-
 body {
   line-height: 1.4;
   font-family: 'Roboto', sans-serif;
@@ -16,20 +9,6 @@ body {
 
 ol, ul {
   list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
 }
 
 a {
@@ -46,13 +25,6 @@ a:hover, a:focus, a:active {
 Responsive media queries
 ************************************
 ***********************************/
-
-.header {
-  background: url('../img/bg-banner03.jpg') no-repeat fixed;
-  background-size: cover;
-  min-height: 630px;
-  position: relative;
-}
 
 .navbar-default {
   background-color: transparent;
@@ -83,7 +55,6 @@ Responsive media queries
   background-color: transparent;
 }
 
-
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
   background-color:#020615d9; 
 }
@@ -91,31 +62,6 @@ Responsive media queries
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   color: #fffde0;
   background-color: transparent;
-}
-
-@media (max-width: 768px) {
-	.navbar-collapse {
-		background: rgba(50, 60, 70, 0.9);
-	}
-}
-
-.top-nav-collapse {
-  padding: 0;
-  background: rgba(50, 60, 70, 0.9);
-}
-
-.bg-color {
-  background-color: RGBA(0, 0, 0, 0.67);
-  min-height: 650px;
-}
-
-.navbar-border {}
-
-.banner-text {
-  border-left: 5px solid #BE2525;
-  padding: 15px 40px;
-  color: #fff;
-  margin-top: 170px;
 }
 
 .banner-text h2, .banner-text p {
@@ -128,24 +74,6 @@ Responsive media queries
   font-family: 'Satisfy', cursive;
 }
 
-
-.overlay-detail {
-  margin: 0 auto;
-}
-
-.overlay-detail a i {
-  text-align: center;
-  position: absolute;
-  bottom: -140px;
-  font-size: 24px;
-  color: #fff;
-  width: 40px;
-  height: 40px;
-  border: 1px solid #fff;
-  line-height: 40px;
-  border-radius: 50%;
-}
-
 .deco {
   font-family: 'Satisfy', cursive;
 }
@@ -153,7 +81,7 @@ Responsive media queries
 #about {
   background: url('../img/about.jpeg') no-repeat;
   background-size: cover;
-  margin-bottom: -3px;
+  margin: 10px;
 }
 
 .section-padding {
@@ -174,6 +102,7 @@ Responsive media queries
 .about-text p ,h4{
   color: black;
   font-size: 16px;
+  display: block;
 }
 
 .abt-list li {
@@ -207,84 +136,9 @@ Responsive media queries
   margin-top: 50px;
 }
 
-.test-sec blockquote {
-  background: #eee;
-  display: block;
-  font-size: 14px;
-  line-height: 20px;
-  padding: 15px;
-  position: relative;
-}
-
-.test-sec blockquote::after {
-  content: '';
-  position: absolute;
-  bottom: -14px;
-  margin-left: 10px;
-  border-top: 14px solid #eee;
-  border-left: 14px solid transparent;
-  border-right: 14px solid transparent;
-}
-
-blockquote {
-  padding: 10px 20px;
-  margin: 0 0 20px;
-  font-size: 17.5px;
-  border-left: 5px solid RGBA(0, 0, 0, 0.18);
-}
-
-.test-sec .carousel-info span {
-  display: block;
-}
-
-.test-sec span.testimonials-name {
-  color: #62646f;
-  font-weight: 600;
-  margin: 16px 0 5px;
-}
-
 #contact {
   width: 100%;
   background-color: RGBA(8, 7, 7, 0.92);
-}
-
-#contact .btn-primary {
-  background: #BE2525;
-  border: 1px solid #BE2525;
-}
-
-.validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-#sendmessage {
-  color: green;
-  border: 1px solid green;
-  background: #fff;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-  background: #fff;
-}
-
-#sendmessage.show, #errormessage.show, .show {
-  display: block;
 }
 
 footer {
@@ -329,15 +183,6 @@ footer {
   padding-right: 15px;
 }
 
-.contact-sec a {
-  color: #FFF;
-  background-color: RGBA(174, 142, 142, 0.7);
-  display: inline-block;
-  padding: 16px 34px;
-  font-size: 18px;
-  transition: all 0.5s ease-in 0s;
-}
-
 .carousel-info, blockquote {
   float: left;
 }
@@ -356,16 +201,8 @@ footer {
   margin-right: 15px;
 }
 
-.type-underline, .type-underline:hover {
-  color: #767676;
-}
-
 .footer__lower {
   margin-top: 3.25em;
-}
-
-.type--fine-print {
-  color: #767676;
 }
 
 .navbar-toggle {
@@ -381,14 +218,6 @@ footer {
 
 .navbar-brand {
   margin-top: 9px;
-}
-
-.grid-item {
-  width: 200px;
-}
-
-.grid-item--width2 {
-  width: 400px;
 }
 
 /***********************************
@@ -567,23 +396,76 @@ button.bg-dark:focus {
   padding: 20px;
 }
 
+
+/*-----------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background: black;
+  }
+}
+
+.top-nav-collapse {
+  padding: 0;
+  background: #001730;
+}
+
+.banner-text {
+  border-left: 5px solid #BE2525;
+  padding: 15px 40px;
+  color: #fff;
+  margin-top: 150px;
+  position: absolute;
+}
+
+.overlay-detail {
+  margin: 0 auto;
+}
+
+.overlay-detail a i {
+  text-align: center;
+  position: absolute;
+  bottom: -700px;
+  font-size: 24px;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+/*-----------------------------------------------------------------*/
+
+#particles-js {
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.contact-sec a {
+  color: #FFF;
+  background-color: #001730;
+  display: inline-block;
+  padding: 16px 34px;
+  font-size: 18px;
+  transition: all 0.5s ease-in 0s;
+}
+
+#contact{
+  background-color: black;
+}
+
+.connectme li{
+      display: inline;
+      padding: 10px;
+      margin-left: 14px;
+}
+
 .connect li{
-  	display: inline;
-  	padding: 10px;
-}
-
-.connect li:first-child{
-	margin-left: 7%;
-}
-
-.connect li a:hover{
-	color: black;
-	font-size: 14px;
-}
-
-.list li a{
-	padding-left: 50px;
-}
-.list li a:hover{
-	color: cyan;
+      display: inline-grid;
 }
