@@ -45,11 +45,4 @@
       $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
   });
-
-  // Testimonials Slider
-  $('.bxslider').bxSlider({
-    adaptiveHeight: true,
-    mode: 'fade'
-  });
-
 })(jQuery);
