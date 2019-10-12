@@ -473,3 +473,7 @@ button.bg-dark:focus {
 .connect li a:first-child{
         margin-left: 20px;
 }
+
+#email:hover{
+  color: cyan;
+}
