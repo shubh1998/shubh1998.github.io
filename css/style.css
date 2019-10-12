@@ -477,3 +477,11 @@ button.bg-dark:focus {
 #email:hover{
   color: cyan;
 }
+
+.list li a{
+  padding-left: 50px;
+}
+    	
+.list li a:hover{
+  color: cyan;
+}
