@@ -1,0 +1,121 @@
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  position: relative;
+  margin-bottom: 3%;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  //box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+  box-shadow: -1px 13px 20px 10px #86868638;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color:white;
+  color: black;
+  border-radius: 5px;;
+}
+
+.flip-card-back {
+  // background-color: #2980b9;
+  background-color: #00334D !important;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.design_favos{
+    text-align: center; 
+    margin-top: 20%; 
+    color: orangered; 
+    font-size: xx-large; 
+    font-weight: bolder;
+    background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .flip-card {
+    margin-left: 25px;
+  }
+  .circle{
+    margin-left: 15% !important;
+  }
+}
+
+.circle {
+  width: 180px;
+  text-align: center;
+  height: 180px;
+  line-height: 180px;
+  border-radius: 50%;
+  color: orangered;
+  text-align: center;
+  background: transparent;
+  border: 2px solid orangered;
+  font-size: xx-large; 
+  font-weight: bolder;
+  margin-left: 21%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.favos_image{
+  width:350px; 
+  background-color: white;
+  margin-bottom: 2%;
+}
+
+.butterfly_image{
+  width:180px;
+  height: 180px; 
+  background-color: white;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  border-radius: 50%;
+}
+
+.circle_waitty{
+  width: 180px;
+  text-align: center;
+  line-height: 180px;
+  height: 180px;
+  border-radius: 50%;
+  font-size: 10px;
+  color: black;
+  text-align: center;
+  background: yellow;
+  font-size: large; 
+  font-weight: bolder;
+  margin-left: 21%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.waitty{
+  text-align: center;
+  color: black;
+  background-color: yellow;
+  font-size: x-large;
+  font-weight: bolder;
+  padding-bottom: 4%;
+  padding-top: 4%;
+}
