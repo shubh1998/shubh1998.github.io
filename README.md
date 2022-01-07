@@ -1,3 +1,10 @@
+# Project Environment 
+```
+Node js - v14.16.0
+angular cli - v9.1.6
+```
+After that run `npm install` command to install all dependencies. 
+
 # PersonalPortfolioAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.

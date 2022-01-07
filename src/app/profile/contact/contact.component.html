@@ -1,121 +1,129 @@
 <div class="section" id="contact">
-    <div class="cc-contact-information" style="background-image: url('assets/images/contact.jpg');">
-      <div class="container">
-        <div class="cc-contact">
-          <div class="row">
-            <div class="col-md-9">
-              <div class="card mb-0" data-aos="zoom-in">
-                <div class="h4 text-center title">Contact Me</div>
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="card-body">
-                      <form name="form" [formGroup]="contactUsForm" (ngSubmit)="onSubmitContactUsForm()" #f="ngForm" novalidate>
-                        <div class="p pb-3">
-                          <strong>Feel free to contact me </strong>
-                        </div>
-                        <div class="row mb-3">
-                          <div class="col">
-                            <div class="input-group">
-                              <input class="form-control" type="text" name="name" #name placeholder="Name"
-                                formControlName="name"/>
-                            </div>
-                            <div *ngIf="(contactUsForm.controls.name.dirty || contactUsForm.controls.name.touched)">
-                              <p class="error-msg" *ngIf="contactUsForm.controls.name.hasError('required')">
-                                Name is required.
-                              </p>
-                            </div>
+  <div class="cc-contact-information" style="background-image: url('assets/images/contact.jpg');">
+    <div class="container">
+      <div class="cc-contact">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="card mb-0" data-aos="zoom-in">
+              <div class="h4 text-center title">Contact Me</div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <form name="form" [formGroup]="contactUsForm" (ngSubmit)="onSubmitContactUsForm()" #f="ngForm"
+                      novalidate>
+                      <div class="p pb-3">
+                        <strong>Feel free to contact me </strong>
+                      </div>
+                      <div class="row">
+                        <div class="col mb-10">
+                          <div class="input-group mb-0">
+                            <input class="form-control" type="text" name="name" #name placeholder="Name"
+                              formControlName="name" />
+                          </div>
+                          <div *ngIf="(contactUsForm.controls.name.dirty || contactUsForm.controls.name.touched)">
+                            <p class="error-msg" *ngIf="contactUsForm.controls.name.hasError('required')">
+                              Name is required.
+                            </p>
                           </div>
                         </div>
-                        <div class="row mb-3">
-                          <div class="col">
-                            <div class="input-container">
-                              <input class="form-control" type="text" name="subject" #subject placeholder="Subject"
-                                formControlName="subject" />
-                            </div>
-                            <div *ngIf="(contactUsForm.controls.subject.dirty || contactUsForm.controls.subject.touched)">
-                              <p class="error-msg" *ngIf="contactUsForm.controls.subject.hasError('required')">
-                                Subject is required.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row mb-3">
-                          <div class="col">
-                            <div class="input-group">
-                              <input class="form-control" type="text" name="email"  #email placeholder="E-mail"
-                                formControlName="email"/>
-                            </div>
-                            <div *ngIf="(contactUsForm.controls.email.invalid && (contactUsForm.controls.email.dirty || contactUsForm.controls.email.touched))">
-                              <p class="error-msg" *ngIf="contactUsForm.controls.email.hasError('required')">
-                                Email is required.
-                              </p>
-                              <p class="error-msg" *ngIf="contactUsForm.controls.email.hasError('pattern')">
-                                Email is invalid.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
+                      </div>
 
-                        <div class="row mb-3">
-                          <div class="col">
-                            <div class="input-container">
-                              <input class="form-control" type="text" name="mobile_number" #mobile_number placeholder="mobile number" formControlName="mobile_number" />
-                            </div>
-                            <div *ngIf="(contactUsForm.controls.mobile_number.dirty || contactUsForm.controls.mobile_number.touched)">
-                             <span *ngIf="contactUsForm.controls.mobile_number.hasError('required') || contactUsForm.controls.mobile_number.hasError('whitespace')" class="error-msg">
-                                Mobile number is required.
-                              </span>
-                              <span class="error-msg" *ngIf="contactUsForm.controls.mobile_number.hasError('minlength')">
-                                Please enter valid mobile number. Mobile Number has the minimum limit of 6 numbers.</span>
-                              <span class="error-msg" *ngIf="contactUsForm.controls.mobile_number.hasError('maxlength')">
-                                Mobile Number has exceeded the maximum limit of 18 numbers.
-                              </span>
-                              <span class="error-msg" *ngIf="contactUsForm.controls.mobile_number.hasError('pattern')">
-                                Mobile Number is invalid.
-                              </span>
-                            </div>
+                      <div class="row">
+                        <div class="col mb-10">
+                          <div class="input-group mb-0">
+                            <input class="form-control" type="text" name="subject" #subject placeholder="Subject"
+                              formControlName="subject" />
+                          </div>
+                          <div *ngIf="(contactUsForm.controls.subject.dirty || contactUsForm.controls.subject.touched)">
+                            <p class="error-msg" *ngIf="contactUsForm.controls.subject.hasError('required')">
+                              Subject is required.
+                            </p>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="row mb-3">
-                          <div class="col">
-                            <div class="form-group">
-                              <textarea class="form-control" name="message" #message placeholder="Your Message"
-                                formControlName="message"></textarea>
-                            </div>
-                            <div *ngIf="(contactUsForm.controls.message.dirty || contactUsForm.controls.message.touched)">
-                              <p class="error-msg" *ngIf="contactUsForm.controls.message.hasError('required')">
-                                Message is required.
-                              </p>
-                              <p class="error-msg" *ngIf="contactUsForm.controls.message.hasError('minlength')">
-                                Message should contain at least 5 characters.
-                              </p>
-                              <p class="error-msg" *ngIf="contactUsForm.controls.message.hasError('maxlength')">
-                                Message has exceeded the maximum limit of 2000 characters.
-                              </p>
-                            </div>
+                      <div class="row">
+                        <div class="col mb-10">
+                          <div class="input-group mb-0">
+                            <input class="form-control" type="text" name="email" #email placeholder="E-mail"
+                              formControlName="email" />
+                          </div>
+                          <div
+                            *ngIf="(contactUsForm.controls.email.invalid && (contactUsForm.controls.email.dirty || contactUsForm.controls.email.touched))">
+                            <p class="error-msg" *ngIf="contactUsForm.controls.email.hasError('required')">
+                              Email is required.
+                            </p>
+                            <p class="error-msg" *ngIf="contactUsForm.controls.email.hasError('pattern')">
+                              Email is invalid.
+                            </p>
                           </div>
                         </div>
-                        <div class="row">
-                          <div class="col">
-                            <button class="btn btn-primary" type="submit"> Send</button>
+                      </div>
+
+                      <div class="row">
+                        <div class="col mb-10">
+                          <div class="input-container">
+                            <input class="form-control" type="text" name="mobile_number" #mobile_number
+                              placeholder="mobile number" formControlName="mobile_number" />
+                          </div>
+                          <div
+                            *ngIf="(contactUsForm.controls.mobile_number.dirty || contactUsForm.controls.mobile_number.touched)">
+                            <span
+                              *ngIf="contactUsForm.controls.mobile_number.hasError('required') || contactUsForm.controls.mobile_number.hasError('whitespace')"
+                              class="error-msg">
+                              Mobile number is required.
+                            </span>
+                            <span class="error-msg" *ngIf="contactUsForm.controls.mobile_number.hasError('minlength')">
+                              Please enter valid mobile number. Mobile Number has the minimum limit of 6 numbers.</span>
+                            <span class="error-msg" *ngIf="contactUsForm.controls.mobile_number.hasError('maxlength')">
+                              Mobile Number has exceeded the maximum limit of 18 numbers.
+                            </span>
+                            <span class="error-msg" *ngIf="contactUsForm.controls.mobile_number.hasError('pattern')">
+                              Mobile Number is invalid.
+                            </span>
                           </div>
                         </div>
-                      </form>
-                    </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col mb-10">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" #message placeholder="Your Message"
+                              formControlName="message"></textarea>
+                          </div>
+                          <div *ngIf="(contactUsForm.controls.message.dirty || contactUsForm.controls.message.touched)">
+                            <p class="error-msg" *ngIf="contactUsForm.controls.message.hasError('required')">
+                              Message is required.
+                            </p>
+                            <p class="error-msg" *ngIf="contactUsForm.controls.message.hasError('minlength')">
+                              Message should contain at least 5 characters.
+                            </p>
+                            <p class="error-msg" *ngIf="contactUsForm.controls.message.hasError('maxlength')">
+                              Message has exceeded the maximum limit of 2000 characters.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col mb-10">
+                          <button class="btn btn-primary" type="submit"> Send</button>
+                        </div>
+                      </div>
+                    </form>
                   </div>
-                  <div class="col-md-6">
-                    <div class="card-body">
-                        <p class="mb-0">
-                            <strong>Phone</strong>
-                        </p>
-                        <p class="pb-2">+91 8889031968 / 9399192353</p>
-                        <p class="mb-0">
-                            <strong>Email</strong>
-                        </p>
-                        <p>shubhamgupta9891@gmail.com</p>
-                    </div>
                 </div>
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <p class="mb-0">
+                      <strong>Phone</strong>
+                    </p>
+                    <p class="pb-2"><a href="tel:+918889031968">+91 8889031968</a> / <a
+                        href="tel:+918889031968">9399192353</a></p>
+                    <p class="mb-0">
+                      <strong>Email</strong>
+                    </p>
+                    <p><a href="mailto:shubhamgupta9891@gmail.com">shubhamgupta9891@gmail.com</a></p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -124,6 +132,5 @@
       </div>
     </div>
   </div>
-  <ng-snotify class="material"></ng-snotify>
-
-
+</div>
+<ng-snotify class="material"></ng-snotify>

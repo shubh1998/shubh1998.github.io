@@ -6,5 +6,24 @@
     text-transform: capitalize;
     //   bottom: -21px;
     padding-left: 15px;
+}
 
+.mb-10{
+  margin-bottom: 25px;
+}
+
+.mb-0{
+  margin-bottom: 0px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: grey;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: grey;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: grey;
 }

@@ -44,10 +44,10 @@
 }
 
 .design_favos{
-    text-align: center; 
-    margin-top: 20%; 
-    color: orangered; 
-    font-size: xx-large; 
+    text-align: center;
+    margin-top: 20%;
+    color: orangered;
+    font-size: xx-large;
     font-weight: bolder;
     background-color: white;
 }
@@ -74,7 +74,7 @@
   text-align: center;
   background: transparent;
   border: 2px solid orangered;
-  font-size: xx-large; 
+  font-size: xx-large;
   font-weight: bolder;
   margin-left: 21%;
   margin-bottom: 2%;
@@ -82,14 +82,14 @@
 }
 
 .favos_image{
-  width:350px; 
+  width:350px;
   background-color: white;
   margin-bottom: 2%;
 }
 
-.butterfly_image{
+.project_image{
   width:180px;
-  height: 180px; 
+  height: 180px;
   background-color: white;
   margin-bottom: 2%;
   margin-top: 2%;
@@ -106,7 +106,7 @@
   color: black;
   text-align: center;
   background: yellow;
-  font-size: large; 
+  font-size: large;
   font-weight: bolder;
   margin-left: 21%;
   margin-bottom: 2%;
@@ -121,4 +121,33 @@
   font-weight: bolder;
   padding-bottom: 4%;
   padding-top: 4%;
+}
+
+.padsplit_back_logo{
+  width: 100%;
+  padding: 5px;
+  transform: scale(0.7);
+}
+
+.truupit_back_logo{
+  width:100%;
+  height:68px;
+  padding: 4px;
+  background-color: white;
+}
+
+.framebazaar_back_logo{
+  background-color: white;
+}
+
+#content{
+  padding: 5px;
+}
+
+.info{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
 }
