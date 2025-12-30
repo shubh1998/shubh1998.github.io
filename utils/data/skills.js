@@ -1,0 +1,56 @@
+export const frontendSkills = [
+  'HTML',
+  'CSS',
+  'Javascript',
+  'Typescript',
+  'Bootstrap',
+  'MaterialUi',
+  'Styled Components',
+  'Storybook',
+  'Tailwind',
+  'React',
+  'Next JS',
+  'Redux',
+  'React Query',
+  'Angular',
+  'Vitejs',
+  'Webpack',
+  'React Native',
+  'Native Base',
+  'Figma',
+  'Canva'
+];
+
+export const backendSkills = [
+  'Node JS',
+  'Express JS',
+  'Socket.IO',
+  'Rest API',
+  'WebRTC',
+  'Socket.IO',
+  'Python',
+  'Kafka',
+  'Bull Queue',
+  'MySQL',
+  'PostgreSQL',
+  'MongoDB',
+  'Firebase'
+];
+
+export const devOpsCloudAndThirdPartyTech = [
+  'Git',
+  'Nginx',
+  'AWS',
+  'Azure',
+  'Docker',
+  'Kubernetes',
+  'CI/CD',
+  'Linux',
+  'Strapi',
+  'Stripe',
+  'SendGrid',
+  'Twilio',
+  'Jest',
+  'Cypress',
+  'Cucumber JS',
+];

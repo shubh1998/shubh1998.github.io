@@ -1,0 +1,39 @@
+{
+  "name": "software-engineer-portfolio",
+  "description": "Shubham Gupta's Portfolio - Senior Software Engineer",
+  "author": {
+    "name": "shubham gupta",
+    "email": "shubhamgupta9891@gmail.com",
+    "url": "https://github.com/shubh1998"
+  },
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/third-parties": "16.0.1",
+    "axios": "1.6.8",
+    "lottie-react": "2.4.1",
+    "next": "16.0.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-fast-marquee": "1.6.2",
+    "react-icons": "4.11.0",
+    "react-toastify": "10.0.4",
+    "sharp": "0.33.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.1.16",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "16.0.1",
+    "postcss": "latest",
+    "sass": "1.69.5",
+    "tailwindcss": "latest"
+  }
+}

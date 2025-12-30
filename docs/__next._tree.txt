@@ -1,0 +1,19 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+5:"$Sreact.suspense"
+8:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+:HL["/_next/static/chunks/fd019ee9cf9b5770.css","style"]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"buildId":"JCk8CqSDcFgu5QgiQ17IX","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"head":["$","$1","h",{"children":[null,["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isHeadPartial":false,"staleTime":300}
+3:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+7:T4bf,
+    My name is SHUBHAM GUPTA. 
+    I am a Senior Full-Stack JavaScript Engineer and Team Lead with 6+ years of experience building, scaling, and leading high-performance web, mobile, and real-time applications across iGaming, Fintech, E-commerce, SaaS, Hospitality, and Storage Virtualization domains.
+    I specialize in end-to-end product development—from system architecture and design to development, deployment, and optimization—using React, Node.js, TypeScript, Angular, Next.js, along with AWS, Azure, Docker, CI/CD pipelines, and microservice architectures.
+    I have delivered real-time platforms handling 5000+ concurrent users (WebRTC, Socket.io) and scalable SaaS systems supporting 10K–20K active sessions, including secure payment systems, admin dashboards, analytics, and reporting engines. 
+    My focus is on performance, scalability, reliability, and clean architecture.
+    Beyond coding, I bring strong technical leadership—mentoring developers, owning modules and products, 
+    collaborating with international clients, and translating business requirements into scalable technical 
+    solutions. I thrive in Agile environments and enjoy taking ownership from idea to production.
+  6:[["$","title","0",{"children":"Shubham Gupta - Senior Software Engineer"}],["$","meta","1",{"name":"description","content":"$7"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.15a7243b.ico","sizes":"64x64","type":"image/x-icon"}],["$","$L8","3",{}]]
