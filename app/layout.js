@@ -13,7 +13,7 @@ export const metadata = {
   title: "Shubham Gupta - Senior Software Engineer",
   description: `
     My name is SHUBHAM GUPTA. 
-    I am a Senior Full-Stack JavaScript Engineer and Team Lead with 6+ years of experience building, scaling, and leading high-performance web, mobile, and real-time applications across iGaming, Fintech, E-commerce, SaaS, Hospitality, and Storage Virtualization domains.
+    I am a Senior Full-Stack JavaScript Engineer and Team Lead with 6.7+ years of experience building, scaling, and leading high-performance web, mobile, and real-time applications across iGaming, Fintech, E-commerce, SaaS, Hospitality, and Storage Virtualization domains.
     I specialize in end-to-end product development—from system architecture and design to development, deployment, and optimization—using React, Node.js, TypeScript, Angular, Next.js, along with AWS, Azure, Docker, CI/CD pipelines, and microservice architectures.
     I have delivered real-time platforms handling 5000+ concurrent users (WebRTC, Socket.io) and scalable SaaS systems supporting 10K–20K active sessions, including secure payment systems, admin dashboards, analytics, and reporting engines. 
     My focus is on performance, scalability, reliability, and clean architecture.

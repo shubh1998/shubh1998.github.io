@@ -470,3 +470,14 @@ pnpm install
 - Ensure image files are committed to your repository
 
 </details>
+
+
+---
+
+
+## Prepare build for github pages using these cmds
+
+First run cmd - `npm run build` , This will generate your static build in out folder
+then if you want to server your build and want to get preview first, run cmd - `npx server out`
+after that by default github pages take `docs` directory to serve static page website 
+So you can rename `out` to `docs` and push it and wait for a minute and it will start working.

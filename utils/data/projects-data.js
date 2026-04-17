@@ -266,7 +266,7 @@ export const projectsData = [
         ],
         code: '',
         images: butterflyImages,
-        demo: 'https://framebazaar.com/',
+        demo: 'https://butterflyapp.co/',
         role: 'Senior Full Stack Developer',
     },
     {
