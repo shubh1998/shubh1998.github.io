@@ -477,7 +477,10 @@ pnpm install
 
 ## Prepare build for github pages using these cmds
 
-First run cmd - `npm run build` , This will generate your static build in out folder
-then if you want to server your build and want to get preview first, run cmd - `npx server out`
-after that by default github pages take `docs` directory to serve static page website 
-So you can rename `out` to `docs` and push it and wait for a minute and it will start working.
+Run `npm run build` — this generates the static build, renames `out` to `docs`, and creates a `.nojekyll` file automatically.
+
+To preview locally before pushing: `npx serve docs`
+
+Then push the `docs` folder and GitHub Pages will serve the site.
+
+> **Important**: The `.nojekyll` file in `docs/` is required. Without it, GitHub Pages (which uses Jekyll) will silently ignore the `_next/` folder containing all CSS and JS assets, causing styles to not apply.

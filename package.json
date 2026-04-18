@@ -10,7 +10,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && mv out docs && touch docs/.nojekyll",
     "export": "next export",
     "start": "next start",
     "lint": "next lint"
